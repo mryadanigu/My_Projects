@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
 
-import subprocess
+import base64
 
-def install_dependencies():
-    print("\n[*] Installing dependencies...\n")
-    subprocess.run(["pip", "install", "requests", "beautifulsoup4", "tqdm", "colorama"])
+setup = """
+IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoKaW1wb3J0IHN1YnByb2Nlc3MKCmRlZiBpbnN0YWxsX2RlcGVuZGVuY2llcygpOgogICAgcHJpbnQoIlxuWypdIEluc3RhbGxpbmcgZGVwZW5kZW5jaWVzLi4uXG4iKQogICAgc3VicHJvY2Vzcy5ydW4oWyJwaXAiLCAiaW5zdGFsbCIsICJyZXF1ZXN0cyIsICJiZWF1dGlmdWxzb3VwNCIsICJ0cWRtIiwgImNvbG9yYW1hIl0pCgpkZWYgbWFpbigpOgogICAgaW5zdGFsbF9kZXBlbmRlbmNpZXMoKQogICAgcHJpbnQoIlxuWypdIFNldHVwIGNvbXBsZXRlISIpCiAgICBwcmludCgiTm93IFJ1bjogcHl0aG9uMyB3ZWJfc2NyYXAucHkiKQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQ==
+"""
 
-def main():
-    install_dependencies()
-    print("\n[*] Setup complete!")
+decoded_script = base64.b64decode(setup).decode('utf-8')
 
-if __name__ == "__main__":
-    main()
-
+exec(decoded_script)

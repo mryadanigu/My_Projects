@@ -13,7 +13,7 @@ To install the web scraper and its dependencies, follow these steps:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/mryadanigu/My_Projects/Scraper.git
+    git clone https://github.com/mryadanigu/My_Projects.git
     ```
 
 2. Navigate to the project directory:
