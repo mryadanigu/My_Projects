@@ -6,9 +6,12 @@ Welcome to my_projects! This repository contains a collection of my personal pro
 <pre>
 ### 1. Web Scraper
 
-A Python web scraper for downloading files from a given URL. This project automates the process of fetching files from websites, allowing users to specify a URL and filter files based on their extensions.
+### 1. Web Scraper
 
-* [Website Scraper](https://github.com/mryadanigu/My_Projects/tree/Boss/Scraper)
+This project entails a Python-based web scraper crafted to fetch files from a designated URL. It streamlines the process of downloading files from websites, empowering users to specify a URL and filter files based on their extensions.
+
+[Explore the Web Scraper](https://github.com/mryadanigu/My_Projects/tree/Boss/Scraper)
+
 </pre>
 
 ## Usage
