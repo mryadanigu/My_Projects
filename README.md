@@ -8,7 +8,7 @@ Welcome to my_projects! This repository contains a collection of my personal pro
 
 A Python web scraper for downloading files from a given URL. This project automates the process of fetching files from websites, allowing users to specify a URL and filter files based on their extensions.
 
-<a href="https://github.com/mryadanigu/My_Projects/Scraper.git">[*] Website Scraper</a>
+* [Website Scraper](https://github.com/mryadanigu/My_Projects/tree/Boss/Scraper)
 </pre>
 
 ## Usage
