@@ -1,1 +1,3 @@
 INFO:root:Downloading files from https://repo.zenk-security.com/?dir=./Programmation
+ERROR:root:Error downloading https://repo.zenk-security.com/Programmation/The Hackademy Prog - Apprendre A Programmer En PHP.pdf: HTTPSConnectionPool(host='repo.zenk-security.com', port=443): Read timed out.
+INFO:root:All files downloaded successfully!
